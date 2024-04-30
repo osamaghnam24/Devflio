@@ -1,0 +1,135 @@
+
+ :root{
+    --main-color: #0c7eff;
+}
+/*
+.text-main{
+    color: var(--main-color);
+} */
+/* ------nav------ */
+ nav .container{
+    color: white;
+}
+.nav-item .dropdown-menu li a:hover{
+    color: #0c7eff;
+}
+nav li{
+    position: relative;
+    overflow: hidden;
+   
+}
+
+    /* -------------section 1------------ */
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5) 0% 100%) , url(../pic/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header .contant-home h1{
+    font-size: 4rem;
+}                
+/* -------------section 2------------- */
+.services h1{
+    font-size: 50px;
+    
+}
+.services p{
+    color: #4e4e4e;
+    position: relative;
+}
+.services p::after{
+    content: "";
+    height: 6px;
+    width: 4%;
+    background-color:var(--main-color) ;
+    position: absolute;
+    top: 150%;
+    left: 48%;
+} 
+.container .service-card .icon{ 
+    font-size:3rem;
+}
+
+.container .service-card .icon .fa-regular{
+    border: 10px solid var(--main-color);
+    border-radius: 50%;
+    padding: 35px;
+    transition: 0.5s;
+}
+.container .service-card .icon .fa-solid{
+    border: 10px solid var(--main-color);
+    border-radius: 50%;
+    padding: 35px;
+    transition: 0.5s;
+} 
+.container .sec1{
+    padding: 50px;
+}
+.container .sec1:hover .icon .fa-regular{
+    border-color: #CDE1F8;
+    color: white;
+    background-color: #0c7eff;
+}
+.container .sec1:hover .icon .fa-solid{
+    border-color: #CDE1F8;
+    color: white;
+    background-color: #0c7eff;
+}
+/* --------------section 3------------- */
+.blog h1{
+    font-size: 50px;
+    
+}
+.blog p{
+    color: #4e4e4e;
+    position: relative;
+}
+.blog p::after{
+    content: "";
+    height: 6px;
+    width: 4%;
+    background-color:var(--main-color) ;
+    position: absolute;
+    top: 150%;
+    left: 48%;
+} 
+.ms-card{
+    width: 100%;
+}
+.card-img{
+    overflow: hidden;
+}
+.ms-card .web-design{
+    color: var(--main-color);
+
+}
+.ms-card .card-body a{
+    width: 2rem;
+    height: 2rem;
+    right: 25px;
+    bottom: 15px;
+    border: #0c7eff 3px solid;
+    border-radius: 50%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.ms-card img{
+    transition: 1s;
+
+}
+.ms-card img:hover{
+    transform: scale(1.2); 
+}
+.content{
+    height: 70vh;
+    width: 100%;
+    background-image:linear-gradient(rgb(38, 120, 214,0.8) 0% 100%), url(../pic/overlay-bg.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
